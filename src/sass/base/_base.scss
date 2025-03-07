@@ -1,0 +1,22 @@
+figure {
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+
+.tearoom-main {
+    min-height: 100vh;
+    //je veux que la hauteur minimale de
+    // l'élément soit de 100% de l'écran
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/assets/images/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+}

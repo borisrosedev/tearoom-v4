@@ -1,0 +1,32 @@
+.login__main {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba($color: #000000, $alpha: 0.8);
+    
+
+} 
+
+.login__form-section {
+
+    width: 300px;
+    display: flex;
+
+
+    form {
+        width: 100%;
+        padding: 10px;
+
+        article {
+            padding-block: 20px;
+
+        }
+
+        & > section:last-of-type {
+            padding-block: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}

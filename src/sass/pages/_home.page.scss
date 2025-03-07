@@ -1,0 +1,28 @@
+.home {
+
+    &__main {
+        
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__hero-section {
+
+    }
+
+
+    &__hero-figure {
+        display: flex;
+        figure {
+            width: 100%;
+        }
+
+        height: 300px;
+      
+    }
+
+
+    &__usp {
+        padding: 20px;
+    }
+}

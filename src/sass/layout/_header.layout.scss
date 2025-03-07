@@ -1,0 +1,47 @@
+.tearoom-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 15vh;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 10px;
+    box-shadow: 0 0 5px rgba($color: #000000, $alpha: 0.6);
+    background-color: #c29f76;
+
+
+    figure {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    nav a {
+        color: #fff;
+        font-weight: 700;
+        position: relative;
+
+        &::before {
+            position: absolute;
+            content: "";
+            background-color: #fff;
+            height: 2px;
+            width: 0%;
+            bottom: -10px;
+            transition: all ease-in 300ms;
+
+        }
+
+        &:hover::before {
+            width: 100%;
+        }
+    }
+
+
+
+    
+}
